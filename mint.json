@@ -15,6 +15,9 @@
       "to": "#FFD600"
     }
   },
+  "feedback": {
+    "thumbsRating": true
+  },
   "topbarLinks": [
     {
       "name": "Support",
@@ -54,7 +57,7 @@
     },
     {
       "group": "Resources",
-      "pages": ["resources/security", "resources/app", "resources/partners", "resources/roadmap"]
+      "pages": ["resources/security", "resources/wallet", "resources/partners", "resources/roadmap"]
     },
     {
       "group": "EARTH",

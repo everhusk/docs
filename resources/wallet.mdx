@@ -1,37 +1,34 @@
 ---
 title: 'Wallet'
-description: 'The best way to self custody your Bitcoin, Ethereum, and EARTH'
+description: 'The Best Way to Self Custody your Bitcoin, Ethereum, and EARTH'
 icon: 'mobile'
 ---
 
-## Basic
+### Earth Wallet - Self Custody
 
-### Inline Code
+Earth Wallet is commited to providing a self-custody solution for Bitcoin, Ethereum, and Earth with great user experience, and easy developer tools to create the new financial market, without ever having to give up control of your keys.
+This provides humanity with a transparent easy way to help ensure the foundational principle of Bitcoin, self-custody.
 
-To denote a `word` or `phrase` as code, enclose it in backticks (`).
+| Create Wallet | Import Seed   | Connect Wallet| Transfer Assets  | Export Seed   |
+| -------------- | -------------- | --------------- | ---------------- | --------------- |
+| [<img src="/images/screenshots/create.png" max-height="200px"/>](/images/screenshots/create.mp4) | [<img src="/images/screenshots/import.png" max-height="200px"/>](/images/screenshots/import.mp4) | [<img src="/images/screenshots/connect.png" max-height="200px"/>](/images/screenshots/connect.mp4) | [<img src="/images/screenshots/send.png" max-height="200px"/>](/images/screenshots/send.mp4) | [<img src="/images/screenshots/export.png" max-height="200px"/>](/images/screenshots/export.mp4) |
 
+Make sure to store your seed phrase in a safe location, as this will is used to create your unique private key to access your accounts digital assets. If this seed is exposed or lost, it is recommended to move your assets to a new acount.
+
+### Bitcoin Developers
+
+As free open source software, Bitcoin requires open source developers and teams to help maintain, improve, and create new applications.
+Earth Wallet is bootstrapped with no VC backing and offers open source tools to build on Bitcoin using Bitcoin Taproot technology and Wallet Connect v2.
+This drastically improves the ability for anyone to easily create secure, novel financial applications on Bitcoin with just a few lines of code:
+
+Earth Wallet supports Bitcoin Taproot wallet connections for getting a users Bitcoin Taproot wallet address, triggering a Bitcoin Taproot send or partially signed transaction (PBST), or signing a message with the users selected wallet.
 ```
-To denote a `word` or `phrase` as code, enclose it in backticks (`).
+const requiredNamespaces = {
+  bip122: {
+    methods: ["btc_send","btc_signMessage", "btc_signPsbt"],
+    chains: ["bip122:000000000019d6689c085ae165831e93"],
+    events: []
+  }
+};
 ```
-
-### Code Block
-
-Use [fenced code blocks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks) by enclosing code in three backticks and follow the leading ticks with the programming language of your snippet to get syntax highlighting. Optionally, you can also write the name of your code after the programming language.
-
-```java HelloWorld.java
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
-
-````md
-```java HelloWorld.java
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
-````
+A sample React application is provided [on the Github repository here](https://github.com/earthstaking/bitcoin-dapp-template), and you can the full Wallet Connect v2 docs [here](https://docs.walletconnect.com/2.0/web3modal/about). 

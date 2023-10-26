@@ -1,88 +1,67 @@
 ---
-title: 'Audits'
-description: 'Text, title, and styling in standard markdown'
-icon: 'code'
+title: 'Security'
+description: 'Our #1 Priority is Security'
+icon: 'lock'
 ---
 
-## Titles
+# Audits
 
-Best used for section headers.
+Our commitment to security is reflected in the quality of our code and the processes we follow. We have a dedicated team of security experts that are constantly working to improve our security posture, and we work with leading security firms to perform regular audits and penetration tests.
 
-```md
-## Titles
-```
+## Halborn Security
 
-### Subtitles
+Halborn was founded in 2019 by renowned ethical hacker Steven Walbroehl and growth hacker Rob Behnke. The fully remote organization has since grown to over 100 of the best and brightest offensive security engineers in the world.
 
-Best use to subsection headers.
+Halborn Security has audited many of the leading protocols including Avalanche, Bancor, Bored Ape Yacht Club, Polygon, and hundreds more, and found [found no critical issues with the Earth Ether protocol](/audit.pdf).
 
-```md
-### Subtitles
-```
+[<img src="halborn.jpg" max-height="200px"/>](/audit.pdf)
 
-<Tip>
+## Bounty Program
 
-Each **title** and **subtitle** creates an anchor and also shows up on the table of contents on the right.
+In our commitment to ensure the safety, security, and the highest possible performance of the Earth Ether protocol, we are excited to announce our Bug Bounty Program. 
+This initiative aims to incentivize members of the Ethereum, cybersecurity, and broader tech communities to assist in identifying vulnerabilities within our protocol.
 
-</Tip>
+Our objective at Earth Ether is to create a sustainable future by supporting initiatives that help combat oceanic and atmospheric pollution, and ensure Web3 technology is used for something great in our lives. 
+By contributing to the security of our platform, you are helping to create a more stable and reliable framework to finance these projects. As such, your participation is not only beneficial for the Earth Ether community but for the broader global community and our shared environment.
 
-## Text Formatting
+# Scope
 
-We support most markdown formatting. Simply add `**`, `_`, or `~` around text to format it.
+Our bug bounty program spans the following areas of our system:
 
-| Style         | How to write it   | Result          |
-| ------------- | ----------------- | --------------- |
-| Bold          | `**bold**`        | **bold**        |
-| Italic        | `_italic_`        | _italic_        |
-| Strikethrough | `~strikethrough~` | ~strikethrough~ |
+1. Smart contracts deployed on the Ethereum Mainnet.
+2. Earth Ether staking protocol and infrastructure.
+3. Web-based front-end interfaces and APIs.
+4. Cross-chain bridges and interoperability tools.
 
-You can combine these. For example, write `**_bold and italic_**` to get **_bold and italic_** text.
+# Rules and Rewards
 
-You need to use HTML to write superscript and subscript text. That is, add `<sup>` or `<sub>` around your text.
+### Rules
 
-| Text Size   | How to write it          | Result                 |
-| ----------- | ------------------------ | ---------------------- |
-| Superscript | `<sup>superscript</sup>` | <sup>superscript</sup> |
-| Subscript   | `<sub>subscript</sub>`   | <sub>subscript</sub>   |
+1. Disclose the vulnerabilities privately to our team. Public disclosure of a vulnerability makes it ineligible for a bounty.
+2. Vulnerabilities should be original and previously unreported.
+3. Provide detailed reports with reproducible steps. If the report is not detailed enough to reproduce the issue, the issue will not be eligible for a reward.
+4. Submit one vulnerability per report.
+5. Do not engage in any activity that could potentially harm the TerraStake services or its users.
+6. Any kind of Denial of Service (DoS) attack is strictly prohibited.
 
-## Linking to Pages
+### Rewards
 
-You can add a link by wrapping text in `[]()`. You would write `[link to google](https://google.com)` to [link to google](https://google.com).
+The rewards for our bug bounty program are based on the severity of the vulnerability. We use the CVSS (Common Vulnerability Scoring System) to determine the severity. Rewards are payable in ETH or our native token (upon your preference) and will fall within the following ranges:
 
-Links to pages in your docs need to be root-relative. Basically, you should include the entire folder path. For example, `[link to text](/writing-content/text)` links to the page "Text" in our components section.
+- Critical (9.0 - 10.0): Up to <b>$15,000</b>
+- High (7.0 - 8.9): Up to <b>$10,000</b>
+- Medium (4.0 - 6.9): Up to <b>$2,500</b>
+- Low (0.1 - 3.9): Up to <b>$1,000</b>
 
-Relative links like `[link to text](../text)` will open slower because we cannot optimize them as easily.
+We also understand the intrinsic motivation of the blockchain and environmental communities. As such, we offer the option to allocate the bounty you earn directly to any of the environment restoration projects that we support. In these cases, we will boost your donation by an additional 10%.
 
-## Blockquotes
+# Submission Process
 
-### Singleline
+To report a vulnerability:
 
-To create a blockquote, add a `>` in front of a paragraph.
+Send an email to bugbounty@earthwallet.io with the following information:
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
-```
-
-### Multiline
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
-
-### LaTeX
-
-Mintlify supports [LaTeX](https://www.latex-project.org) through the Latex component.
-
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-
-```md
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-```
+1. Description of the location and potential impact of the vulnerability.
+- A detailed description of the steps required to reproduce the vulnerability.
+- Your Ethereum address for receiving the bounty.
+2. Our team will review your submission and respond within 5 business days with the next steps.

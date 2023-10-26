@@ -56,8 +56,8 @@
       "pages": ["introduction", "ethereum", "governance"]
     },
     {
-      "group": "Resources",
-      "pages": ["resources/security", "resources/wallet", "resources/partners", "resources/roadmap"]
+      "group": "Community",
+      "pages": ["community/partners", "community/security",  "community/wallet", "community/roadmap"]
     },
     {
       "group": "EARTH",

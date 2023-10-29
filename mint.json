@@ -58,7 +58,7 @@
     },
     {
       "group": "Resources",
-      "pages": ["resources/wallet", "resources/security", "resources/roadmap", "resources/community"]
+      "pages": ["resources/wallet", "resources/security", "resources/proposals", "resources/community"]
     },
     {
       "group": "EARTH",

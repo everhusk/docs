@@ -31,12 +31,12 @@
   },
   "tabs": [
     {
-      "name": "EARTH",
-      "url": "EARTH"
+      "name": "ERTH",
+      "url": "ERTH"
     },
     {
-      "name": "ESG",
-      "url": "ESG"
+      "name": "EARTH",
+      "url": "EARTH"
     }
   ],
   "anchors": [
@@ -46,27 +46,27 @@
       "url": "https://app.earthstaking.com"
     },
     {
-      "name": "ESG Newsletter",
+      "name": "Earth Newsletter",
       "icon": "newspaper",
-      "url": "https://news.earthstaking.com"
+      "url": "https://mail.earthstaking.com"
     }
   ],
   "navigation": [
     {
       "group": "Documentation",
-      "pages": ["introduction", "ethereum", "governance"]
+      "pages": ["introduction", "earth", "social-network"]
     },
     {
       "group": "Resources",
       "pages": ["resources/wallet", "resources/security", "resources/proposals", "resources/community"]
     },
     {
-      "group": "EARTH",
-      "pages": ["EARTH/overview"]
+      "group": "ERTH",
+      "pages": ["ERTH/overview"]
     },
     {
-      "group": "ESG",
-      "pages": ["ESG/overview"]
+      "group": "EARTH",
+      "pages": ["EARTH/overview"]
     }
   ],
   "footerSocials": {

@@ -31,12 +31,12 @@
   },
   "tabs": [
     {
-      "name": "ERTH",
-      "url": "ERTH"
-    },
-    {
       "name": "EARTH",
       "url": "EARTH"
+    },
+    {
+      "name": "HEART",
+      "url": "HEART"
     }
   ],
   "anchors": [
@@ -46,9 +46,9 @@
       "url": "https://app.earthstaking.com"
     },
     {
-      "name": "Earth Newsletter",
+      "name": "Heart Announcements",
       "icon": "newspaper",
-      "url": "https://mail.earthstaking.com"
+      "url": "https://heart.earthstaking.com"
     }
   ],
   "navigation": [
@@ -61,12 +61,12 @@
       "pages": ["resources/wallet", "resources/security", "resources/proposals", "resources/community"]
     },
     {
-      "group": "ERTH",
-      "pages": ["ERTH/overview"]
-    },
-    {
       "group": "EARTH",
       "pages": ["EARTH/overview"]
+    },
+    {
+      "group": "HEART",
+      "pages": ["HEART/overview"]
     }
   ],
   "footerSocials": {

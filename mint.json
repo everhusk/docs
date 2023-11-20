@@ -33,10 +33,6 @@
     {
       "name": "EARTH",
       "url": "EARTH"
-    },
-    {
-      "name": "HEART",
-      "url": "HEART"
     }
   ],
   "anchors": [
@@ -44,17 +40,12 @@
       "name": "Get EARTH",
       "icon": "earth-americas",
       "url": "https://app.earthstaking.com"
-    },
-    {
-      "name": "Heart Announcements",
-      "icon": "newspaper",
-      "url": "https://heart.earthstaking.com"
     }
   ],
   "navigation": [
     {
       "group": "Documentation",
-      "pages": ["introduction", "earth", "social-network"]
+      "pages": ["introduction", "staking"]
     },
     {
       "group": "Resources",
@@ -63,15 +54,12 @@
     {
       "group": "EARTH",
       "pages": ["EARTH/overview"]
-    },
-    {
-      "group": "HEART",
-      "pages": ["HEART/overview"]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/earthstaking",
     "github": "https://github.com/earthstaking",
+    "twitter": "https://twitter.com/earthstaking",
+    "telegram": "https://t.me/earthstaking",
     "instagram": "https://instagram.com/earthstaking",
     "linkedin": "https://www.linkedin.com/company/earthstaking"
   }

@@ -49,7 +49,7 @@
     },
     {
       "group": "Resources",
-      "pages": ["resources/wallet", "resources/security", "resources/proposals", "resources/community"]
+      "pages": ["resources/nodeoperators", "resources/wallet", "resources/security", "resources/proposals", "resources/community"]
     },
     {
       "group": "EARTH",

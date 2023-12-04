@@ -12,8 +12,8 @@
     "light": "#E6E9ED",
     "dark": "#0F1726",
     "anchors": {
-      "from": "#FFA800",
-      "to": "#FFD600"
+      "from": "#F9D5D9",
+      "to": "#E22D3F"
     }
   },
   "feedback": {
@@ -33,6 +33,10 @@
     {
       "name": "EARTH",
       "url": "EARTH"
+    },
+    {
+      "name": "HEART",
+      "url": "HEART"
     }
   ],
   "anchors": [
@@ -40,27 +44,34 @@
       "name": "Get EARTH",
       "icon": "earth-americas",
       "url": "https://app.earthstaking.com"
+    },{
+      "name": "Give HEART",
+      "icon": "heart",
+      "url": "https://the.social.network"
     }
   ],
   "navigation": [
     {
       "group": "Documentation",
-      "pages": ["introduction", "staking"]
+      "pages": ["introduction", "staking", "governance"]
     },
     {
       "group": "Resources",
-      "pages": ["resources/nodeoperators", "resources/wallet", "resources/security", "resources/proposals", "resources/community"]
+      "pages": ["resources/wallet", "resources/farmers", "resources/security", "resources/proposals", "resources/community"]
     },
     {
       "group": "EARTH",
       "pages": ["EARTH/overview"]
+    },
+    {
+      "group": "HEART",
+      "pages": ["HEART/overview"]
     }
   ],
   "footerSocials": {
     "github": "https://github.com/earthstaking",
     "twitter": "https://twitter.com/earthstaking",
     "telegram": "https://t.me/earthstaking",
-    "instagram": "https://instagram.com/earthstaking",
     "linkedin": "https://www.linkedin.com/company/earthstaking"
   }
 }

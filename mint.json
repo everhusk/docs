@@ -53,11 +53,11 @@
   "navigation": [
     {
       "group": "Documentation",
-      "pages": ["introduction", "genesis", "staking", "governance"]
+      "pages": ["introduction", "taproot-farming", "ethereum-staking", "social-network"]
     },
     {
       "group": "Resources",
-      "pages": ["resources/wallet", "resources/farmers", "resources/security", "resources/proposals", "resources/community"]
+      "pages": ["resources/wallet", "resources/farmers", "resources/security", "resources/proposals", "resources/stewards"]
     },
     {
       "group": "EARTH",

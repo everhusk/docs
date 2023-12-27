@@ -57,7 +57,7 @@
     },
     {
       "group": "Resources",
-      "pages": ["resources/wallet", "resources/farmers", "resources/security", "resources/stewards"]
+      "pages": ["resources/wallet", "resources/farmers", "resources/security", "resources/stewards", "tokens/earth-token"]
     },
     {
       "group": "EARTH",

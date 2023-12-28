@@ -65,7 +65,7 @@
     },
     {
       "group": "Resources",
-      "pages": ["resources/wallet", "resources/relayers", "resources/security", "resources/stewards"]
+      "pages": ["resources/wallet", "resources/security", "resources/stewards"]
     },
     {
       "group": "EARTH",

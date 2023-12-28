@@ -1,86 +1,85 @@
 {
-    "$schema": "https://mintlify.com/schema.json",
-    "name": "Earth Staking",
-    "logo": {
-      "dark": "/logo/dark.png",
-      "light": "/logo/light.png"
-    },
-    "backgroundImage": "/logo/background.png",
-    "favicon": "/logo/favicon.svg",
-    "colors": {
-      "primary": "#2496FF",
-      "light": "#E6E9ED",
-      "dark": "#0F1726",
-      "anchors": {
-        "from": "#F9D5D9",
-        "to": "#E22D3F"
-      }
-    },
-    "feedback": {
-      "thumbsRating": true
-    },
-    "topbarLinks": [
-      {
-        "name": "Support",
-        "url": "mailto:support@earthstaking.com"
-      }
-    ],
-    "topbarCtaButton": {
-      "name": "Stake Now",
-      "url": "https://app.earthstaking.com"
-    },
-    "tabs": [
-      {
-        "name": "EARTH",
-        "url": "EARTH"
-      },
-      {
-        "name": "HEART",
-        "url": "HEART"
-      }
-    ],
-    "anchors": [
-      {
-        "name": "Get EARTH",
-        "icon": "earth-americas",
-        "url": "https://app.earthstaking.com"
-      },{
-        "name": "Give HEART",
-        "icon": "heart",
-        "url": "https://the.social.network"
-      }
-    ],
-    "navigation": [
-      {
-        "group": "Documentation",
-        "pages": ["introduction", "earth-staking", "earth-farming", "earth-community"]
-      },
-      {
-        "group": "Resources",
-        "pages": ["resources/wallet", "resources/farmers", "resources/security", "resources/stewards"]
-      },
-      {
-        "group": "Tokens",
-        "pages": ["TOKENS/earth-token", "TOKENS/heart-token"]
-      },
-      {
-        "group": "Get Involved",
-        "pages": ["get-involved/relayer", "get-involved/staker", "get-involved/ambassador", "get-involved/projects"]
-      },
-      {
-        "group": "EARTH",
-        "pages": ["EARTH/overview"]
-      },
-      {
-        "group": "HEART",
-        "pages": ["HEART/overview"]
-      }
-    ],
-    "footerSocials": {
-      "github": "https://github.com/earthstaking",
-      "twitter": "https://twitter.com/earthstaking",
-      "telegram": "https://t.me/earthstaking",
-      "linkedin": "https://www.linkedin.com/company/earthstaking"
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Earth Staking",
+  "logo": {
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
+  },
+  "backgroundImage": "/logo/background.png",
+  "favicon": "/logo/favicon.svg",
+  "colors": {
+    "primary": "#2496FF",
+    "light": "#E6E9ED",
+    "dark": "#0F1726",
+    "anchors": {
+      "from": "#F9D5D9",
+      "to": "#E22D3F"
     }
+  },
+  "feedback": {
+    "thumbsRating": true
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@earthstaking.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Stake Now",
+    "url": "https://app.earthstaking.com"
+  },
+  "tabs": [
+    {
+      "name": "EARTH",
+      "url": "EARTH"
+    },
+    {
+      "name": "HEART",
+      "url": "HEART"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Get EARTH",
+      "icon": "earth-americas",
+      "url": "https://app.earthstaking.com"
+    },{
+      "name": "Give HEART",
+      "icon": "heart",
+      "url": "https://the.social.network"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Documentation",
+      "pages": ["introduction", "earth-staking", "earth-farming", "earth-community"]
+    },
+    {
+      "group": "Tokens",
+      "pages": ["TOKENS/earth-token", "TOKENS/heart-token"]
+    },
+    {
+      "group": "Get Involved",
+      "pages": ["get-involved/relayer", "get-involved/staker", "get-involved/ambassador", "get-involved/projects"]
+    },
+    {
+      "group": "Resources",
+      "pages": ["resources/wallet", "resources/farmers", "resources/security", "resources/stewards"]
+    },
+    {
+      "group": "EARTH",
+      "pages": ["EARTH/overview"]
+    },
+    {
+      "group": "HEART",
+      "pages": ["HEART/overview"]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/earthstaking",
+    "twitter": "https://twitter.com/earthstaking",
+    "telegram": "https://t.me/earthstaking",
+    "linkedin": "https://www.linkedin.com/company/earthstaking"
   }
-  
+}

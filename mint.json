@@ -65,7 +65,7 @@
       },
       {
         "group": "Get Involved",
-        "pages": ["get-involved/relayer-application", "get-involved/staker", "get-involved/ambassador", "get-involved/projects"]
+        "pages": ["get-involved/relayer", "get-involved/staker", "get-involved/ambassador", "get-involved/projects"]
       },
       {
         "group": "EARTH",

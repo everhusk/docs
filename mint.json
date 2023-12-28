@@ -60,8 +60,12 @@
         "pages": ["resources/wallet", "resources/farmers", "resources/security", "resources/stewards"]
       },
       {
-        "group": "TOKENS",
+        "group": "Tokens",
         "pages": ["TOKENS/earth-token", "TOKENS/heart-token"]
+      },
+      {
+        "group": "Get Involved",
+        "pages": ["get-involved/relayer-application", "get-involved/staker", "get-involved/ambassador", "get-involved/projects"]
       },
       {
         "group": "EARTH",

@@ -61,7 +61,7 @@
     },
     {
       "group": "Get Involved",
-      "pages": ["get-involved/staker", "get-involved/relayer", "get-involved/ambassador", "get-involved/projects"]
+      "pages": ["get-involved/staker", "get-involved/node-operator", "get-involved/ambassador", "get-involved/projects"]
     },
     {
       "group": "Resources",

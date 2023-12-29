@@ -65,7 +65,7 @@
     },
     {
       "group": "Resources",
-      "pages": ["resources/wallet", "resources/security", "resources/stewards", "earth-farming", "resources/nodes"]
+      "pages": ["resources/why-it-matters", "resources/wallet", "resources/security", "resources/stewards", "earth-farming", "resources/nodes"]
     },
     {
       "group": "EARTH",

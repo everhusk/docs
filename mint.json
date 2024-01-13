@@ -32,7 +32,7 @@
   "navigation": [
     {
       "group": "Documentation",
-      "pages": ["introduction", "bitcoin-staking", "decentralization", "protocol-security", "ecosystem", "social-network"]
+      "pages": ["introduction", "bitcoin-staking", "decentralization", "protocol-security", "social-network", "ecosystem"]
     },
     {
       "group": "Tokenomics",
@@ -44,7 +44,7 @@
     },
     {
       "group": "Resources",
-      "pages": ["resources/mission", "resources/wallet", "resources/security", "resources/guidelines"]
+      "pages": ["resources/mission", "resources/wallet", "resources/bounties", "resources/guidelines"]
     }
   ],
   "footerSocials": {

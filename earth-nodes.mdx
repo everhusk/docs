@@ -24,7 +24,7 @@ All three of these components make up a single Earth Node, a reference implement
 
 # Bitcoin Node Setup
 
-The Bitcoin Core daemon (bitcoind) is a program that implements the Bitcoin protocol and enables remote procedure calls (RPC) for accessing the distributed ledger. An additional library, called Ordhook, developed by Hiro systems, is used to easily parse additional Bitcoin chainstate through bitcoind's ZeroMQ interface, its embedded networking library, passing raw blockchain data to be evaluated for events related to the the Bitcoin Social Network and Earth Staking.
+The Bitcoin Core daemon (bitcoind) is a program that implements the Bitcoin protocol and enables remote procedure calls (RPC) for accessing the distributed ledger. An additional indexer is used to easily parse additional Bitcoin chainstate through bitcoind's ZeroMQ interface, its embedded networking library, passing raw blockchain data to be evaluated for events related to the the Bitcoin Social Network and Earth Staking.
 
 The Bitcoin node must run in full archive mode, with --txdetails=1 and ensure it remains up to date for the Relayer to be valid. The latest Bitcoin core software can be obtained at [bitcoin.org](https://bitcoin.org), and requires ~200GB data with 2GB RAM and a CPU. This requirement is to ensure there is no centralized censorship ability of Social Network's incentive layer, and also helps to decentralize the Bitcoin monetary system.
 

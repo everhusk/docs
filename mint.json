@@ -32,19 +32,23 @@
   "navigation": [
     {
       "group": "Documentation",
-      "pages": ["introduction", "bitcoin-staking", "decentralization", "protocol-security", "social-network", "ecosystem"]
+      "pages": ["introduction", "bitcoin-staking", "decentralization", "protocol-security", "ecosystem"]
     },
     {
       "group": "Tokenomics",
       "pages": ["heart", "earth"]
     },
     {
+      "group": "Core Developers",
+      "pages": ["dev/social", "dev/wallet", "dev/audits"]
+    },
+    {
       "group": "Get Involved",
       "pages": ["get-involved/staker", "get-involved/node-operator", "get-involved/ambassador"]
     },
     {
-      "group": "Resources",
-      "pages": ["resources/mission", "resources/wallet", "resources/bounties", "resources/guidelines"]
+      "group": "Additional Resources",
+      "pages": ["resources/mission", "resources/guidelines"]
     }
   ],
   "footerSocials": {

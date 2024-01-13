@@ -76,7 +76,7 @@ var tx = axios.get(`wss://nodes.earthstaking.com/${heart_tx}`);
 console.log(`Successfully hearted ${amount}! Transaction: https://mempool.space/tx/${tx}`)
 ```
 
-If the social network relayer requested approves the content storage request, the event will be set to long term storage by the relayer, heart bonuses will be paid to the and the creator (30%) and relayer (70%), every week at 00:00 GMT according to:
+If the social network relayer requested approves the content storage request, the event will be set to long term storage by the relayer, heart bonuses will be paid to the and the creator (30%) and relayer (70%), every week at 00:00 Universal Time according to:
 
 Heart_allocated = '(event_data_size / network_capacity) * (unix_timestamp / t) * (2% total_heart_suppy / 52)'
 

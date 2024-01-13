@@ -29,51 +29,22 @@
     "name": "Stake Now",
     "url": "https://app.earthstaking.com"
   },
-  "tabs": [
-    {
-      "name": "EARTH",
-      "url": "EARTH"
-    },
-    {
-      "name": "HEART",
-      "url": "HEART"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Get EARTH",
-      "icon": "earth-americas",
-      "url": "https://app.earthstaking.com"
-    },{
-      "name": "Give HEART",
-      "icon": "heart",
-      "url": "https://the.social.network"
-    }
-  ],
   "navigation": [
     {
       "group": "Documentation",
-      "pages": ["introduction", "earth-layers", "earth-staking", "earth-nodes", "earth-community", "social-network"]
+      "pages": ["introduction", "bitcoin-staking", "decentralization", "protocol-security", "ecosystem", "social-network"]
     },
     {
-      "group": "Tokens",
-      "pages": ["TOKENS/earth-token", "TOKENS/heart-token"]
+      "group": "Tokenomics",
+      "pages": ["heart", "earth"]
     },
     {
       "group": "Get Involved",
-      "pages": ["get-involved/staker", "get-involved/node-operator", "get-involved/ambassador", "get-involved/projects"]
+      "pages": ["get-involved/staker", "get-involved/node-operator", "get-involved/ambassador"]
     },
     {
       "group": "Resources",
-      "pages": ["resources/why-it-matters", "resources/wallet", "resources/security", "resources/stewards", "earth-farming"]
-    },
-    {
-      "group": "EARTH",
-      "pages": ["EARTH/overview"]
-    },
-    {
-      "group": "HEART",
-      "pages": ["HEART/overview"]
+      "pages": ["resources/mission", "resources/wallet", "resources/security", "resources/guidelines"]
     }
   ],
   "footerSocials": {

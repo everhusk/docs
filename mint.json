@@ -40,7 +40,7 @@
     },
     {
       "group": "Core Developers",
-      "pages": ["dev/social", "dev/wallet", "dev/audits"]
+      "pages": ["dev/social", "dev/audits", "dev/wallet"]
     },
     {
       "group": "Get Involved",

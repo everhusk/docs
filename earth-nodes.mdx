@@ -97,18 +97,18 @@ It may take some time for the syncronization to sync, a systemd script is provid
 ### Configuring the Bitcoin indexer
 
 Once your node is running and fully synced (this may take a few days), the next step is to setup the Bitcoin indexer which will be used to determine events for the Earth Relayers to keep track of and share. 
-Indexing satoshis is done using the Ordinals protocol, using the [Ordhook](https://github.com/earthstaking/ordhook) repo. To run this you will need to install [Rust](https://www.rust-lang.org/tools/install):
+Indexing satoshis is done using the Ordinals protocol, using the [indexer](https://github.com/earthstaking/indexer). To run this you will need to install [Rust](https://www.rust-lang.org/tools/install):
 
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source "$HOME/.cargo/env"
 ```
-And next, install Ordhook with:
+And next, install the indexer with:
 ```
-git clone https://github.com/earthstaking/ordhook.git
-cd ordhook && cargo ordhook-install
+git clone https://github.com/earthstaking/indexer.git
+cd indexer && cargo indexer-install
 ```
-Now create a Ordhook config file called 'relay-settings.json'
+Now create a indexer config file called 'indexer-settings.json'
 ```
 {
   "chain": "bitcoin",
@@ -184,9 +184,9 @@ sudo ufw allow 7777/tcp
 
 # Start Relaying for Earth
 
-Lastly, we can start our Ordhook event listener to post real time Bitcoin inscriptions to your Earth Relay:
+Lastly, we can start our Indexer event listener to post real time Bitcoin inscriptions to your Earth Relay:
 ```
-ordhook service start --predicate-path=relay-settings.json --config-path=Ordhook.toml
+indexer service start --predicate-path=relay-settings.json --config-path=Indexer.toml
 ```
 That's all! You are now helping decentralize the Earth Staking network, and enabling scalable, low fee, Bitcoin transactions for the [Social Network](https://social.network).
 

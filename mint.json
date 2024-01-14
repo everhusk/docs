@@ -32,7 +32,7 @@
   "navigation": [
     {
       "group": "Documentation",
-      "pages": ["introduction", "bitcoin-staking", "earth-nodes", "protocol-security", "social-network", "ecosystem"]
+      "pages": ["introduction", "bitcoin-staking", "earth-nodes", "protocol-security", "ecosystem"]
     },
     {
       "group": "Tokenomics",
@@ -40,7 +40,7 @@
     },
     {
       "group": "Core Developers",
-      "pages": ["dev/audits", "dev/wallet"]
+      "pages": ["social-network", "dev/audits", "dev/wallet"]
     },
     {
       "group": "Get Involved",

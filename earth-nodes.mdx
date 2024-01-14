@@ -1,6 +1,6 @@
 ---
 title: 'Earth Nodes'
-description: 'Run Earth Nodes to Decentralize the Bitcoin Social Network'
+description: 'Run Earth Nodes to Decentralize the Social Network'
 icon: 'earth-asia'
 ---
 <img
@@ -20,11 +20,11 @@ The high-level requirements to join the Earth Staking protocol are to run the fo
 2) Ethereum Light Client (and validators will operate execution/consensus clients)
 3) Nostr Relayer
 
-All three of these components make up a single Earth Node, a reference implementation is provided [here](https://github.com/earthstaking/node). This section will overview how to run an Earth Node for the Bitcoin Social Network, and begin earning rewards.
+All three of these components make up a single Earth Node, a reference implementation is provided [here](https://github.com/earthstaking/node). This section will overview how to run an Earth Node for the Social Network, and begin earning rewards.
 
 # Bitcoin Node Setup
 
-The Bitcoin Core daemon (bitcoind) is a program that implements the Bitcoin protocol and enables remote procedure calls (RPC) for accessing the distributed ledger. An additional indexer is used to easily parse additional Bitcoin chainstate through bitcoind's ZeroMQ interface, its embedded networking library, passing raw blockchain data to be evaluated for events related to the the Bitcoin Social Network and Earth Staking.
+The Bitcoin Core daemon (bitcoind) is a program that implements the Bitcoin protocol and enables remote procedure calls (RPC) for accessing the distributed ledger. An additional indexer is used to easily parse additional Bitcoin chainstate through bitcoind's ZeroMQ interface, its embedded networking library, passing raw blockchain data to be evaluated for events related to the the Social Network and Earth Staking.
 
 The Bitcoin node must run in full archive mode, with --txdetails=1 and ensure it remains up to date for the Relayer to be valid. The latest Bitcoin core software can be obtained at [bitcoin.org](https://bitcoin.org), and requires ~200GB data with 2GB RAM and a CPU. This requirement is to ensure there is no centralized censorship ability of Social Network's incentive layer, and also helps to decentralize the Bitcoin monetary system.
 
@@ -153,7 +153,7 @@ This is all that is required to sync with the latest blocks on Ethereum as an Ea
 
 ## Ethereum Validators
 
-Earth Validators is an additional feature which is scheduled to go live in Q2 2024, to ensure the Bitcoin Social Network is also able to provide security to the Ethereum network which it depends on. Ethereum validate earn PoS block rewards through the Earth Staking Controller, a liquid staking contract on Ethereum. To upgrade your Earth Node to an Earth Validator, you will need to stake 1 ETH per validator, and 31 ETH from the liquid stake will be deployed to begin validating blocks.
+Earth Validators is an additional feature which is scheduled to go live in Q2 2024, to ensure the Social Network is also able to provide security to the Ethereum network which it depends on. Ethereum validate earn PoS block rewards through the Earth Staking Controller, a liquid staking contract on Ethereum. To upgrade your Earth Node to an Earth Validator, you will need to stake 1 ETH per validator, and 31 ETH from the liquid stake will be deployed to begin validating blocks.
 
 Earth Staking aims to provide a sustainable revenue stream based on the adoption of the largest Decentralized Financial system in the world, without additional dependancies. By connecting Ethereum staking yields, it enables direct connection to a new Regenerative Finance market, and creates additional ways to align incentives for Social Networks of the future with the benefit of all life on Earth.
 

@@ -10,21 +10,21 @@ icon: 'earth-asia'
 
 # Earth Nodes
 
-There are two ways to participate in Earth Staking, by running an Earth Node, or by running an Earth Validator (coming soon).
+There are two ways to participate in Social Network, by running an Earth Node, or by running an Earth Validator (coming soon).
 
 ## How to Run an Earth Node
 
-The high-level requirements to join the Earth Staking protocol are to run the following:
+The high-level requirements to join the Social Network protocol are to run the following:
 
 1) Bitcoin Node
 2) Ethereum Light Client (and validators will operate execution/consensus clients)
-3) Nostr Relayer
+3) Earth Relayer
 
 All three of these components make up a single Earth Node, a reference implementation is provided [here](https://github.com/earthstaking/node). This section will overview how to run an Earth Node for the Social Network, and begin earning rewards.
 
 # Bitcoin Node Setup
 
-The Bitcoin Core daemon (bitcoind) is a program that implements the Bitcoin protocol and enables remote procedure calls (RPC) for accessing the distributed ledger. An additional indexer is used to easily parse additional Bitcoin chainstate through bitcoind's ZeroMQ interface, its embedded networking library, passing raw blockchain data to be evaluated for events related to the the Social Network and Earth Staking.
+The Bitcoin Core daemon (bitcoind) is a program that implements the Bitcoin protocol and enables remote procedure calls (RPC) for accessing the distributed ledger. An additional indexer is used to easily parse additional Bitcoin chainstate through bitcoind's ZeroMQ interface, its embedded networking library, passing raw blockchain data to be evaluated for events related to the the Social Network and Social Network.
 
 The Bitcoin node must run in full archive mode, with --txdetails=1 and ensure it remains up to date for the Relayer to be valid. The latest Bitcoin core software can be obtained at [bitcoin.org](https://bitcoin.org), and requires ~200GB data with 2GB RAM and a CPU. This requirement is to ensure there is no centralized censorship ability of Social Network's incentive layer, and also helps to decentralize the Bitcoin monetary system.
 
@@ -149,17 +149,17 @@ lodestar lightclient \
     --checkpoint-root "0xccaff4b99986a7b05e06738f1828a32e40799b277fd9f9ff069be55341fe0229"
 ```
 
-This is all that is required to sync with the latest blocks on Ethereum as an Earth Relayer. Additionally, if you are interested in running Ethereum validators to help further secure the Earth Staking and Ethereum network, please apply [here](https://docs.earthstaking.com/validators).
+This is all that is required to sync with the latest blocks on Ethereum as an Earth Relayer. Additionally, if you are interested in running Ethereum validators to help further secure the Social Network and Ethereum network, please apply [here](https://docs.earthstaking.com/validators).
 
 ## Ethereum Validators
 
-Earth Validators is an additional feature which is scheduled to go live in Q2 2024, to ensure the Social Network is also able to provide security to the Ethereum network which it depends on. Ethereum validate earn PoS block rewards through the Earth Staking Controller, a liquid staking contract on Ethereum. To upgrade your Earth Node to an Earth Validator, you will need to stake 1 ETH per validator, and 31 ETH from the liquid stake will be deployed to begin validating blocks.
+Earth Validators is an additional feature which is scheduled to go live in Q2 2024, to ensure the Social Network is also able to provide security to the Ethereum network which it depends on. Ethereum validate earn PoS block rewards through the Social Network Controller, a liquid staking contract on Ethereum. To upgrade your Earth Node to an Earth Validator, you will need to stake 1 ETH per validator, and 31 ETH from the liquid stake will be deployed to begin validating blocks.
 
-Earth Staking aims to provide a sustainable revenue stream based on the adoption of the largest Decentralized Financial system in the world, without additional dependancies. By connecting Ethereum staking yields, it enables direct connection to a new Regenerative Finance market, and creates additional ways to align incentives for Social Networks of the future with the benefit of all life on Earth.
+Social Network aims to provide a sustainable revenue stream based on the adoption of the largest Decentralized Financial system in the world, without additional dependancies. By connecting Ethereum staking yields, it enables direct connection to a new Regenerative Finance market, and creates additional ways to align incentives for Social Networks of the future with the benefit of all life on Earth.
 
 # Nostr Relayer Setup
 
-The final step of setting up your Earth Relay, is running the [NIP-77](https://github.com/social-network/NIPs) compatible [Nostr Relay](https://www.nostr.com). Nostr is a decentralized social networking protocol, which enables permissionless verification of information at lower costs than storing everything on-chain. We will use the [Earth Staking Node.js Relay](https://github.com/earthstaking/relay) implementation of Nostr.
+The final step of setting up your Earth Relay, is running the [NIP-77](https://github.com/social-network/NIPs) compatible [Nostr Relay](https://www.nostr.com). Nostr is a decentralized social networking protocol, which enables permissionless verification of information at lower costs than storing everything on-chain. We will use the [Social Network Node.js Relay](https://github.com/earthstaking/relay) implementation of Nostr.
 
 Setup node version manager
 ```
@@ -188,11 +188,11 @@ Lastly, we can start our Indexer event listener to post real time Bitcoin inscri
 ```
 indexer service start --predicate-path=indexer-settings.json --config-path=Indexer.toml
 ```
-That's all! You are now helping decentralize the Earth Staking network, and enabling scalable, low fee, Bitcoin transactions for the [Social Network](https://social.network).
+That's all! You are now helping decentralize the Social Network network, and enabling scalable, low fee, Bitcoin transactions for the [Social Network](https://social.network).
 
 ## Heart Rewards
 
-Health checks will be made every 15 seconds, so be sure to keep your Relay live to be eligible for the official Heart airdrop on February 14th, 2024! More announcements regarding the role of Heart will be made at [Earth Staking](https://x.com/earthstaking)
+Health checks will be made every 15 seconds, so be sure to keep your Relay live to be eligible for the official Heart airdrop on February 14th, 2024! More announcements regarding the role of Heart will be made at [Social Network](https://x.com/earthstaking)
 
 If you have any questions or are interested in helping partner or build the future of Decentralized Social Networks with us, please contact heart@social.network via email or on [Nostr](https://social.network/.well-known?nostr.json).
 

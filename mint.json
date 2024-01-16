@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Earth Staking",
+  "name": "Social Network",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
@@ -22,12 +22,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@earthstaking.com"
+      "url": "mailto:support@social.network"
     }
   ],
   "topbarCtaButton": {
     "name": "Stake Now",
-    "url": "https://app.earthstaking.com"
+    "url": "https://app.social.network"
   },
   "navigation": [
     {
